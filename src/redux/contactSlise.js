@@ -39,7 +39,7 @@ const contactsSlice = createSlice({
         state.error = action.payload;
       })
 
-      // addContact
+   
       .addCase(addContact.pending, state => {
         state.loading = true;
         state.error = null;
